@@ -6,7 +6,7 @@ class Post < ActiveRecord::Base
 
   validate :title_is_clickbate
 
-    def title_is_clickbate
-      title_is_clickbate.includes?("Guess")
-    end
+    # def title_is_clickbate
+    #   title_is_clickbate.includes?("Guess")
+    # end
 end
